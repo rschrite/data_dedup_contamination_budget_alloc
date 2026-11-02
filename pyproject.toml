@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "rschrite-datasim_jd177"
+name = "rschrite-data_dedup_contamination_budget_alloc"
 version = "0.1.0"
 description = "按给定权重把总额度分配到各项，报告超分配项与利用率"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://rschrite.github.io"
-Repository = "https://github.com/rschrite/datasim_jd177"
-Issues = "https://github.com/rschrite/datasim_jd177/issues"
+Repository = "https://github.com/rschrite/data_dedup_contamination_budget_alloc"
+Issues = "https://github.com/rschrite/data_dedup_contamination_budget_alloc/issues"
 
 [project.scripts]
-datasim_jd177 = "datasim_jd177:main"
+data_dedup_contamination_budget_alloc = "data_dedup_contamination_budget_alloc:main"
 
 [tool.setuptools]
-py-modules = ["datasim_jd177"]
+py-modules = ["data_dedup_contamination_budget_alloc"]
